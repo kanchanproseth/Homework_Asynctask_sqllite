@@ -54,10 +54,13 @@ class MainActivity : AppCompatActivity() {
         val pref = applicationContext.getSharedPreferences("MyPref", 0)
             val username = pref.getString("username", "")//"No name defined" is the default value.
             val password = pref.getString("password", "") //0 is the default value.
+        if (!password.isEmpty() && !password.isBlank() && password != null ){
             val pwDecrypt = AESCrypt.decrypt(password)
-        if (username != null && pwDecrypt != null){
-            autoSignin(username, pwDecrypt)
+            if (username != null && pwDecrypt != null){
+                autoSignin(username, pwDecrypt)
+            }
         }
+
 
 
 
