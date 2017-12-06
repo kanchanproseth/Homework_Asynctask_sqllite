@@ -4,71 +4,92 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.kanchanproseth.homework_asynctask_sqllite.controller.MainActivity">
+    tools:context="com.kanchanproseth.homework_asynctask_sqllite.controller.MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/todo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/back_sign_in"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="36dp" />
 
     <EditText
+        android:background="@drawable/backg_edit_text"
+        android:padding="5dp"
+        android:layout_height="50dp"
         android:id="@+id/signInUsername"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:gravity="center"
         android:hint="@string/username"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
         android:inputType="textPersonName"
-        android:textAlignment="textStart"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <EditText
+        android:background="@drawable/backg_edit_text"
+        android:padding="5dp"
+        android:layout_height="50dp"
         android:id="@+id/signInPassword"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:gravity="center"
         android:hint="@string/password"
-        android:inputType="textPersonName"
-        android:textAlignment="textStart"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textPassword"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signInUsername" />
+        app:layout_constraintTop_toBottomOf="@+id/signInUsername"
+        />
 
     <Button
         android:id="@+id/signInButton"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/sign_in_btn"
         android:text="@string/signin"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/registerNowButton"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signInPassword" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:text="Don't Have an Account yet?"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signInButton" />
+        app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/registerNowButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="16dp"
-        android:gravity="start"
-        android:text="Register Now"
+        android:layout_margin="8dp"
+        android:background="@drawable/sign_in_btn"
+        android:text="@string/register_now"
         android:textAllCaps="false"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView" />
+        app:layout_constraintStart_toStartOf="parent" />
+
+
 </android.support.constraint.ConstraintLayout>

@@ -14,12 +14,5 @@ interface RegisterService{
     @POST("/register")
     fun register(@Body body: User): rx.Observable<HashMap<String,String>>
 
-    companion object {
-        val instance: RegisterService by lazy {
-            val retrofit = Retrofit.Builder()
-                    .baseUrl("https://api.github.com/")
-                    .build()
-            retrofit.create(RegisterService::class.java)
-        }
-    }
+
 }

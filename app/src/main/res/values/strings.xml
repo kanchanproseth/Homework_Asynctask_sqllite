@@ -3,4 +3,8 @@
     <string name="password">password</string>
     <string name="username">username</string>
     <string name="signin">signIn</string>
+    <string name="description">I have so many task to do</string>
+    <string name="title">Today is Monday</string>
+    <string name="register_now">Register Now</string>
+    <string name="todo">TODO</string>
 </resources>

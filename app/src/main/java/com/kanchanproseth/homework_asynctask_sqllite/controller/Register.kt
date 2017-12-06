@@ -46,6 +46,7 @@ class Register : AppCompatActivity() {
                                 val myIntent = Intent(this, MainActivity::class.java)
 //                                myIntent.putExtra("key", value) //Optional parameters
                                 startActivity(myIntent)
+                                this.finish()
                             }else{
                                 Toast.makeText(this, result["message"], Toast.LENGTH_SHORT).show()
                             }

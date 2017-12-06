@@ -1,4 +1,4 @@
-#Mon Nov 06 15:38:48 ICT 2017
-base.0=/Users/kanchanproseth/Downloads/Homework_Asynctask_sqllite/app/build/intermediates/transforms/dexMerger/debug/4
+#Wed Dec 06 14:30:04 ICT 2017
+base.0=/Users/kanchanproseth/Desktop/Homework_Asynctask_sqllite/app/build/intermediates/transforms/dexMerger/debug/5
+path.0=classes.dex
 renamed.0=classes.dex
-file.0=/Users/kanchanproseth/Downloads/Homework_Asynctask_sqllite/app/build/intermediates/transforms/dexMerger/debug/4/classes.dex

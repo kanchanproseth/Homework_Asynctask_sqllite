@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/kanchanproseth/Downloads/Homework_Asynctask_sqllite/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/Users/kanchanproseth/Desktop/Homework_Asynctask_sqllite/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/kanchanproseth/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e864c1db43d267afcfeaf9c685c50593/res/values-v24/values-v24.xml",
+                    "source": "/Users/kanchanproseth/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e07992c97f3115a1d8d087653957bdb7/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/kanchanproseth/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fbcb12fc9b0aa1fd465f8151a549f9d0/res/values-v24/values-v24.xml",
+                    "source": "/Users/kanchanproseth/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c0e3f5022580f088d2a893a75324e81e/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

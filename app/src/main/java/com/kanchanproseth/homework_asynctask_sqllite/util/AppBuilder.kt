@@ -14,7 +14,7 @@ import retrofit.GsonConverterFactory
  */
 object AppBuilder {
 
-    val BASEURL = "http://192.168.1.117:5000"
+    val BASEURL = "http://10.0.2.2:8080"
     var retrofit: Retrofit? = null
     var gson: Gson? = null
 
